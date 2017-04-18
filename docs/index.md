@@ -1,6 +1,6 @@
 # Reportbook
 
-Das Reportbook ist eine Software mit der man Berichtshefte, die man während der Ausbildung schreiben muss, ganz einfach online erstellen und verwalten kann.
+Das Reportbook ist eine Software mit der das Berichtsheft, welches man während der Ausbildung führen muss, ganz einfach online erstellen und verwalten kann.
 
 # FAQ
 
