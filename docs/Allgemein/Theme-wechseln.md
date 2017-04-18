@@ -1,4 +1,4 @@
-# Theme ändern
+# Theme wechseln
 
 Du kannst zwischen einem dunklem und hellem Theme wählen.
 

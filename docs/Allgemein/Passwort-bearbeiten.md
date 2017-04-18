@@ -1,4 +1,4 @@
-# Passwort ändern
+# Passwort bearbeiten
 
 1. Gehe in der Navigationsleiste auf den Punkt `Passwort ändern`.
 2. Fülle das Formular vollständig aus und drücke auf `Speichern`.

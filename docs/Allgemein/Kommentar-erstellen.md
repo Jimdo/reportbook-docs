@@ -1,4 +1,4 @@
-# Kommentare verfassen
+# Kommentare erstellen
 
 Du kannst unter einen Bericht, der `eingereicht`, `abgelehnt` oder `genehmigt` ist, Kommentare verfassen.
 

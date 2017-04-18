@@ -1,4 +1,4 @@
-# Profilbearbeitung
+# Profil bearbeiten
 
 #### Profildaten
 
