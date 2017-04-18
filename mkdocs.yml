@@ -1,0 +1,8 @@
+site_name: Reportbook
+theme: readthedocs
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: True
+  - sane_lists
+repo_url: https://github.com/Jimdo/reportbook-docs
