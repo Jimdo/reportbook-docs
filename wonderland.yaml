@@ -1,0 +1,14 @@
+components:
+  - name: reportbook-docs
+    image: jimdo/reportbook-docs
+    env:
+      ADDRESS: :80
+endpoint:
+  domain: reportbook-docs.jimdo-platform.net
+  port: 80
+  component: reportbook-docs
+  load-balancer:
+    healthcheck:
+      path: /status/health
+notifications:
+  slack: "#fachinformatiker"
