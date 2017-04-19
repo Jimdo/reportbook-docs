@@ -9,7 +9,7 @@ RUN echo "${GOST_HASH}  gost" | sha1sum -c \
 
 ADD ./site /site
 
-EXPOSE 3000
+EXPOSE 80
 
 ENTRYPOINT ["/gost"]
-CMD ["-port=3000", "-path=/site"]
+CMD ["-port=80", "-path=/site"]

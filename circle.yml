@@ -1,0 +1,11 @@
+machine:
+  services:
+    - docker
+test:
+  override:
+    - make tests
+deployment:
+  wonderland:
+    branch: master
+    commands:
+      - make deploy

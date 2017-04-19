@@ -1,0 +1,13 @@
+components:
+  - name: reportbook-docs
+    image: jimdo/reportbook-docs
+    capacity:
+      memory: XS
+      cpu: XS
+endpoint:
+  domain: reportbook-docs.jimdo-platform.net
+  port: 80
+  component: reportbook-docs
+  load-balancer:
+    healthcheck:
+      path: /
