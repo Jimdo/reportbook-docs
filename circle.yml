@@ -1,0 +1,10 @@
+machine:
+  services:
+    - docker
+test:
+    - make tests
+deployment:
+  wonderland:
+    branch: master
+    commands:
+      - make deploy
