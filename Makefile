@@ -20,7 +20,7 @@ build: site
 	docker build -t $(IMAGE) .
 
 push: build
-	docker login -u="$(DOCKER_USERNAME)" -p="$(DOCKER_PASSWORD)" $(REGISTRY)
+	docker login -e="$(DOCKER_EMAIL)" -u="$(DOCKER_USERNAME)" -p="$(DOCKER_PASSWORD)" $(REGISTRY)
 	docker push $(IMAGE)
 
 deploy: push $(WL)
