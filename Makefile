@@ -20,10 +20,10 @@ build: site
 	docker build -t $(IMAGE) .
 
 push: build
-	docker login -u="teamazubi" -p="Jj9B9cq6n3hNKKP" $(REGISTRY)
+	docker login -u="$(DOCKER_USERNAME)" -p="$(DOCKER_PASSWORD)" $(REGISTRY)
 	docker push $(IMAGE)
 
-deploy: $(WL)
+deploy: push $(WL)
 	$(WL) deploy --watch $(NAME)
 
 $(WL):
