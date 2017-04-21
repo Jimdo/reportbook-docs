@@ -14,6 +14,7 @@ Das Reportbook ist eine Software mit der das Berichtsheft, welches man während 
   - [Wie kann ich einen Bericht ansehen?](Allgemein/Bericht-ansehen.md)
   - [Wie kann ich die Berichte in der Listenansicht sortieren?](Allgemein/Berichte-sortieren.md)
   - [Wie kann ich in der Kalenderansicht auf einzelne Berichte zugreifen?](Allgemein/Bericht-ansehen.md)
+  - [Wie kann ich Text formatieren?](Allgemein/Medium-Editor.md)
 
 ##### Benutzung für den Azubi
   - [Wie kann ich einen Bericht erstellen?](Auszubildender/Bericht-erstellen.md)
