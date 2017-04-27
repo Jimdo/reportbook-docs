@@ -27,7 +27,7 @@ deploy: push $(WL)
 	$(WL) deploy --watch $(NAME)
 
 $(WL):
-	curl -sSo $(WL) https://downloads.jimdo-platform.net/wl/latest/wl_latest_$(shell uname -s | tr A-Z a-z)_$(shell uname -m | sed "s/x86_64/amd64/")
+	curl -sSLfo $(WL) https://downloads.jimdo-platform.net/wl/latest/wl_latest_$(shell uname -s | tr A-Z a-z)_$(shell uname -m | sed "s/x86_64/amd64/")
 	chmod +x $(WL)
 	$(WL) version
 
