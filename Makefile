@@ -17,7 +17,7 @@ preview: pull
 	docker run --rm -ti -v $(CURDIR):/src -p 3000:3000 --entrypoint=/bin/bash python:2.7 /src/build.sh preview
 
 build: site
-	docker build -t $(IMAGE) .
+	docker build --rm=false -t $(IMAGE) .
 
 push: build
 	docker login -e="$(DOCKER_EMAIL)" -u="$(DOCKER_USERNAME)" -p="$(DOCKER_PASSWORD)" $(REGISTRY)
