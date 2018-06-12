@@ -1,12 +1,11 @@
 FROM alpine
 
-ENV GOST_VERSION 0.1.1
-ENV GOST_HASH f4d0b42294889e14f6b03d76c7e8cc42a4ce9dd8
+ENV GOST_VERSION v0.1.1
+ENV GOST_HASH 9b42b1ac521ea9287274eb5b38bb34e75dc6f855
 
-ADD https://github.com/golang-id/gost/releases/download/v${GOST_VERSION}/gost_${GOST_VERSION}-snapshot_linux_amd64.tar.gz /gost_${GOST_VERSION}-snapshot_linux_amd64.tar.gz
-RUN tar xvfz /gost_${GOST_VERSION}-snapshot_linux_amd64.tar.gz -C /
-
-RUN echo "${GOST_HASH}  /gost" | sha1sum -c
+ADD https://gobuilder.me/get/github.com/golang-id/gost/gost_v0.1.1_linux-386 /gost
+RUN echo "${GOST_HASH}  gost" | sha1sum -c \
+ && chmod +x gost
 
 ADD ./site /site
 
